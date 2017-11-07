@@ -1,0 +1,55 @@
+Language model created by QuickLM on Wed Oct  4 11:32:06 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 9 words
+
+\data\
+ngram 1=9
+ngram 2=12
+ngram 3=11
+
+\1-grams:
+-0.9379 </s> -0.3010
+-0.9379 <s> -0.2285
+-1.7160 AAN -0.2478
+-1.4150 LICHT -0.2840
+-1.1139 LIGHTS -0.2663
+-1.4150 OFF -0.2478
+-1.4150 ON -0.2478
+-1.4150 TURN -0.2663
+-1.7160 UIT -0.2478
+
+\2-grams:
+-0.7782 <s> LICHT 0.0000
+-0.7782 <s> LIGHTS 0.0000
+-0.7782 <s> TURN 0.0000
+-0.3010 AAN </s> -0.3010
+-0.6021 LICHT AAN 0.0000
+-0.6021 LICHT UIT 0.0000
+-0.6021 LIGHTS OFF 0.0000
+-0.6021 LIGHTS ON 0.0000
+-0.3010 OFF </s> -0.3010
+-0.3010 ON </s> -0.3010
+-0.3010 TURN LIGHTS 0.0000
+-0.3010 UIT </s> -0.3010
+
+\3-grams:
+-0.6021 <s> LICHT AAN
+-0.6021 <s> LICHT UIT
+-0.6021 <s> LIGHTS OFF
+-0.6021 <s> LIGHTS ON
+-0.3010 <s> TURN LIGHTS
+-0.3010 LICHT AAN </s>
+-0.3010 LICHT UIT </s>
+-0.3010 LIGHTS OFF </s>
+-0.3010 LIGHTS ON </s>
+-0.6021 TURN LIGHTS OFF
+-0.6021 TURN LIGHTS ON
+
+\end\
