@@ -26,7 +26,7 @@ public class Main {
 			
 			SpeechResult result;
 			
-			String apiUrl = "http://192.168.2.73:8080/json.htm";
+			String apiUrl = "http://localhost:8080/json.htm";
 			
 			while((result = recognize.getResult()) != null ) {
 				String command = result.getHypothesis();
